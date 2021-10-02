@@ -1,0 +1,6 @@
+module Pods_HypeListMac {
+  umbrella header "Pods-HypeListMac-umbrella.h"
+
+  export *
+  module * { export * }
+}

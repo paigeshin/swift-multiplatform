@@ -1,0 +1,1492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6C4A0D1627034B5B00B8A792 /* HypedListMacApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0D1527034B5B00B8A792 /* HypedListMacApp.swift */; };
+		6C4A0D1827034B5B00B8A792 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0D1727034B5B00B8A792 /* ContentView.swift */; };
+		6C4A0D1A27034B5C00B8A792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4A0D1927034B5C00B8A792 /* Assets.xcassets */; };
+		6C4A0D1D27034B5C00B8A792 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4A0D1C27034B5C00B8A792 /* Preview Assets.xcassets */; };
+		6C7028CB2704AB75005B6880 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526DF253F682800B17E7E /* DataController.swift */; };
+		6C7028CC2704AB75005B6880 /* HypedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526AE253B900000B17E7E /* HypedEvent.swift */; };
+		6C7028CE2704AB86005B6880 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 6C7028CD2704AB86005B6880 /* SwiftDate */; };
+		6C7028D02704AB86005B6880 /* UIColor_Hex_Swift in Frameworks */ = {isa = PBXBuildFile; productRef = 6C7028CF2704AB86005B6880 /* UIColor_Hex_Swift */; };
+		6C7028D12704AC2A005B6880 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816A721253FEA5D00BF6446 /* DiscoverView.swift */; };
+		6C7028D22704AC2A005B6880 /* PastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816A71E253FD14F00BF6446 /* PastView.swift */; };
+		6C7028D32704AC2A005B6880 /* CreateHypedEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526AB253B8EAB00B17E7E /* CreateHypedEventView.swift */; };
+		6C7028D42704AC2A005B6880 /* UpcomingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526A8253B898F00B17E7E /* UpcomingView.swift */; };
+		6C7028D52704AC2A005B6880 /* HypedEventTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526D8253E757700B17E7E /* HypedEventTileView.swift */; };
+		6C7028D62704AC2A005B6880 /* HypedEventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816A725253FEE5F00BF6446 /* HypedEventDetailView.swift */; };
+		6C7028D72704AC2A005B6880 /* FormLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526B1253B962A00B17E7E /* FormLabelView.swift */; };
+		6C7028D82704AC2A005B6880 /* HypedEventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816A71A253FCFD500BF6446 /* HypedEventListView.swift */; };
+		6C7028D92704AE0F005B6880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F5269B253B87A500B17E7E /* Assets.xcassets */; };
+		6C7028DA2705F1CD005B6880 /* HypedListSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F86EF92540E7C800B56ED7 /* HypedListSidebarView.swift */; };
+		6C7028E02708687A005B6880 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F86ED225409E3D00B56ED7 /* WidgetKit.framework */; };
+		6C7028E12708687A005B6880 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F86ED425409E3D00B56ED7 /* SwiftUI.framework */; };
+		6C7028E62708687B005B6880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7028E52708687B005B6880 /* Assets.xcassets */; };
+		6C7028EB2708687B005B6880 /* HypedListMacWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6C7028DF2708687A005B6880 /* HypedListMacWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6C7028F1270868AF005B6880 /* HypedListiOSWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F86ED725409E3D00B56ED7 /* HypedListiOSWidget.swift */; };
+		6C7028F2270868BF005B6880 /* HypedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526AE253B900000B17E7E /* HypedEvent.swift */; };
+		6C7028F3270868BF005B6880 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526DF253F682800B17E7E /* DataController.swift */; };
+		6C7028F5270868E3005B6880 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 6C7028F4270868E3005B6880 /* SwiftDate */; };
+		6C7028F7270868E3005B6880 /* UIColor_Hex_Swift in Frameworks */ = {isa = PBXBuildFile; productRef = 6C7028F6270868E3005B6880 /* UIColor_Hex_Swift */; };
+		6C7028FF2708698E005B6880 /* HypedListTVApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7028FE2708698E005B6880 /* HypedListTVApp.swift */; };
+		6C7029012708698E005B6880 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C7029002708698E005B6880 /* ContentView.swift */; };
+		6C7029032708698F005B6880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7029022708698F005B6880 /* Assets.xcassets */; };
+		6C7029062708698F005B6880 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C7029052708698F005B6880 /* Preview Assets.xcassets */; };
+		6C70290D27086A61005B6880 /* HypedEventTVListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C70290C27086A61005B6880 /* HypedEventTVListView.swift */; };
+		6C70290F27086AAA005B6880 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = 6C70290E27086AAA005B6880 /* SwiftDate */; };
+		6C70291127086AAA005B6880 /* UIColor_Hex_Swift in Frameworks */ = {isa = PBXBuildFile; productRef = 6C70291027086AAA005B6880 /* UIColor_Hex_Swift */; };
+		6C70291227086AE2005B6880 /* HypedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526AE253B900000B17E7E /* HypedEvent.swift */; };
+		6C70291327086AE4005B6880 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526DF253F682800B17E7E /* DataController.swift */; };
+		6C70291427086B7A005B6880 /* HypedEventTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526D8253E757700B17E7E /* HypedEventTileView.swift */; };
+		6C70291527086D9B005B6880 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F5269B253B87A500B17E7E /* Assets.xcassets */; };
+		6C70291727086E0B005B6880 /* HypedEventTVTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C70291627086E0B005B6880 /* HypedEventTVTileView.swift */; };
+		B816A718253F9A8100BF6446 /* UIColor_Hex_Swift in Frameworks */ = {isa = PBXBuildFile; productRef = B816A717253F9A8100BF6446 /* UIColor_Hex_Swift */; };
+		B816A71B253FCFD500BF6446 /* HypedEventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816A71A253FCFD500BF6446 /* HypedEventListView.swift */; };
+		B816A71F253FD14F00BF6446 /* PastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816A71E253FD14F00BF6446 /* PastView.swift */; };
+		B816A722253FEA5D00BF6446 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816A721253FEA5D00BF6446 /* DiscoverView.swift */; };
+		B816A726253FEE5F00BF6446 /* HypedEventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B816A725253FEE5F00BF6446 /* HypedEventDetailView.swift */; };
+		B8F52698253B87A400B17E7E /* HypedListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F52697253B87A400B17E7E /* HypedListApp.swift */; };
+		B8F5269A253B87A400B17E7E /* HypedListTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F52699253B87A400B17E7E /* HypedListTabView.swift */; };
+		B8F5269C253B87A500B17E7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F5269B253B87A500B17E7E /* Assets.xcassets */; };
+		B8F5269F253B87A500B17E7E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F5269E253B87A500B17E7E /* Preview Assets.xcassets */; };
+		B8F526A9253B898F00B17E7E /* UpcomingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526A8253B898F00B17E7E /* UpcomingView.swift */; };
+		B8F526AC253B8EAB00B17E7E /* CreateHypedEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526AB253B8EAB00B17E7E /* CreateHypedEventView.swift */; };
+		B8F526AF253B900000B17E7E /* HypedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526AE253B900000B17E7E /* HypedEvent.swift */; };
+		B8F526B2253B962A00B17E7E /* FormLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526B1253B962A00B17E7E /* FormLabelView.swift */; };
+		B8F526D6253B9B5D00B17E7E /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526D5253B9B5D00B17E7E /* ImagePicker.swift */; };
+		B8F526D9253E757700B17E7E /* HypedEventTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526D8253E757700B17E7E /* HypedEventTileView.swift */; };
+		B8F526DD253F64D800B17E7E /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = B8F526DC253F64D800B17E7E /* SwiftDate */; };
+		B8F526E0253F682800B17E7E /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526DF253F682800B17E7E /* DataController.swift */; };
+		B8F86ED325409E3D00B56ED7 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F86ED225409E3D00B56ED7 /* WidgetKit.framework */; };
+		B8F86ED525409E3D00B56ED7 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B8F86ED425409E3D00B56ED7 /* SwiftUI.framework */; };
+		B8F86ED825409E3D00B56ED7 /* HypedListiOSWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F86ED725409E3D00B56ED7 /* HypedListiOSWidget.swift */; };
+		B8F86EDA25409E3D00B56ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F86ED925409E3D00B56ED7 /* Assets.xcassets */; };
+		B8F86EDE25409E3D00B56ED7 /* HypedListiOSWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B8F86ED025409E3D00B56ED7 /* HypedListiOSWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B8F86EE525409FBB00B56ED7 /* HypedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526AE253B900000B17E7E /* HypedEvent.swift */; };
+		B8F86EE82540A01200B56ED7 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526DF253F682800B17E7E /* DataController.swift */; };
+		B8F86EEC2540A03800B56ED7 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = B8F86EEB2540A03800B56ED7 /* SwiftDate */; };
+		B8F86EEE2540A03C00B56ED7 /* UIColor_Hex_Swift in Frameworks */ = {isa = PBXBuildFile; productRef = B8F86EED2540A03C00B56ED7 /* UIColor_Hex_Swift */; };
+		B8F86EF62540E69700B56ED7 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F86EF52540E69700B56ED7 /* MainView.swift */; };
+		B8F86EFA2540E7C800B56ED7 /* HypedListSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F86EF92540E7C800B56ED7 /* HypedListSidebarView.swift */; };
+		B8F86F022541159F00B56ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F86F012541159F00B56ED7 /* Assets.xcassets */; };
+		B8F86F092541159F00B56ED7 /* HypedListWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B8F86F082541159F00B56ED7 /* HypedListWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B8F86F0E2541159F00B56ED7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F86F0D2541159F00B56ED7 /* ContentView.swift */; };
+		B8F86F102541159F00B56ED7 /* HypedListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F86F0F2541159F00B56ED7 /* HypedListApp.swift */; };
+		B8F86F122541159F00B56ED7 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F86F112541159F00B56ED7 /* ComplicationController.swift */; };
+		B8F86F14254115A000B56ED7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F86F13254115A000B56ED7 /* Assets.xcassets */; };
+		B8F86F17254115A000B56ED7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B8F86F16254115A000B56ED7 /* Preview Assets.xcassets */; };
+		B8F86F1B254115A000B56ED7 /* HypedListWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B8F86EFF2541159E00B56ED7 /* HypedListWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B8F86F292541169400B56ED7 /* HypedEventWatchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F86F282541169400B56ED7 /* HypedEventWatchListView.swift */; };
+		B8F86F2E254116B900B56ED7 /* HypedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F526AE253B900000B17E7E /* HypedEvent.swift */; };
+		B8F86F34254116D100B56ED7 /* SwiftDate in Frameworks */ = {isa = PBXBuildFile; productRef = B8F86F33254116D100B56ED7 /* SwiftDate */; };
+		B8F86F36254116D100B56ED7 /* UIColor_Hex_Swift in Frameworks */ = {isa = PBXBuildFile; productRef = B8F86F35254116D100B56ED7 /* UIColor_Hex_Swift */; };
+		B8F86F3C25411C1F00B56ED7 /* PhoneToWatchDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F86F3B25411C1F00B56ED7 /* PhoneToWatchDataController.swift */; };
+		B8F86F4125411FAA00B56ED7 /* PhoneToWatchDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F86F3B25411C1F00B56ED7 /* PhoneToWatchDataController.swift */; };
+		B8F86F47254120F200B56ED7 /* WatchToPhoneDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F86F46254120F200B56ED7 /* WatchToPhoneDataController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C7028E92708687B005B6880 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8F5268C253B87A400B17E7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C7028DE2708687A005B6880;
+			remoteInfo = HypedListMacWidgetExtension;
+		};
+		B8F86EDC25409E3D00B56ED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8F5268C253B87A400B17E7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8F86ECF25409E3D00B56ED7;
+			remoteInfo = HypedListiOSWidgetExtension;
+		};
+		B8F86F0A2541159F00B56ED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8F5268C253B87A400B17E7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8F86F072541159F00B56ED7;
+			remoteInfo = "HypedListWatch Extension";
+		};
+		B8F86F19254115A000B56ED7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B8F5268C253B87A400B17E7E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8F86EFE2541159E00B56ED7;
+			remoteInfo = HypedListWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6C7028EC2708687B005B6880 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6C7028EB2708687B005B6880 /* HypedListMacWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F86EE225409E3D00B56ED7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B8F86EDE25409E3D00B56ED7 /* HypedListiOSWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F86F1F254115A000B56ED7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B8F86F092541159F00B56ED7 /* HypedListWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F86F23254115A000B56ED7 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B8F86F1B254115A000B56ED7 /* HypedListWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		6C4A0D1327034B5B00B8A792 /* HypedListMac.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypedListMac.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4A0D1527034B5B00B8A792 /* HypedListMacApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedListMacApp.swift; sourceTree = "<group>"; };
+		6C4A0D1727034B5B00B8A792 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C4A0D1927034B5C00B8A792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C4A0D1C27034B5C00B8A792 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C4A0D1E27034B5C00B8A792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C4A0D1F27034B5C00B8A792 /* HypedListMac.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HypedListMac.entitlements; sourceTree = "<group>"; };
+		6C4A0D2327034CEA00B8A792 /* HypedListiOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HypedListiOS.entitlements; sourceTree = "<group>"; };
+		6C4A0D2427034D2600B8A792 /* HypedListWatch.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HypedListWatch.entitlements; sourceTree = "<group>"; };
+		6C4A0D2527034D4F00B8A792 /* HypedListiOSWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HypedListiOSWidgetExtension.entitlements; sourceTree = "<group>"; };
+		6C7028A427034D77005B6880 /* HypedListWatch Extension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "HypedListWatch Extension.entitlements"; sourceTree = "<group>"; };
+		6C7028DF2708687A005B6880 /* HypedListMacWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HypedListMacWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7028E52708687B005B6880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C7028E72708687B005B6880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C7028E82708687B005B6880 /* HypedListMacWidget.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HypedListMacWidget.entitlements; sourceTree = "<group>"; };
+		6C7028FC2708698E005B6880 /* HypedListTV.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypedListTV.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C7028FE2708698E005B6880 /* HypedListTVApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedListTVApp.swift; sourceTree = "<group>"; };
+		6C7029002708698E005B6880 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C7029022708698F005B6880 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C7029052708698F005B6880 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C7029072708698F005B6880 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C70290B2708699C005B6880 /* HypedListTV.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HypedListTV.entitlements; sourceTree = "<group>"; };
+		6C70290C27086A61005B6880 /* HypedEventTVListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedEventTVListView.swift; sourceTree = "<group>"; };
+		6C70291627086E0B005B6880 /* HypedEventTVTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedEventTVTileView.swift; sourceTree = "<group>"; };
+		B816A71A253FCFD500BF6446 /* HypedEventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedEventListView.swift; sourceTree = "<group>"; };
+		B816A71E253FD14F00BF6446 /* PastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastView.swift; sourceTree = "<group>"; };
+		B816A721253FEA5D00BF6446 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		B816A725253FEE5F00BF6446 /* HypedEventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedEventDetailView.swift; sourceTree = "<group>"; };
+		B8F52694253B87A400B17E7E /* HypedListiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypedListiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8F52697253B87A400B17E7E /* HypedListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedListApp.swift; sourceTree = "<group>"; };
+		B8F52699253B87A400B17E7E /* HypedListTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedListTabView.swift; sourceTree = "<group>"; };
+		B8F5269B253B87A500B17E7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8F5269E253B87A500B17E7E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B8F526A0253B87A500B17E7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8F526A8253B898F00B17E7E /* UpcomingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingView.swift; sourceTree = "<group>"; };
+		B8F526AB253B8EAB00B17E7E /* CreateHypedEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateHypedEventView.swift; sourceTree = "<group>"; };
+		B8F526AE253B900000B17E7E /* HypedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedEvent.swift; sourceTree = "<group>"; };
+		B8F526B1253B962A00B17E7E /* FormLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormLabelView.swift; sourceTree = "<group>"; };
+		B8F526D5253B9B5D00B17E7E /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		B8F526D8253E757700B17E7E /* HypedEventTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedEventTileView.swift; sourceTree = "<group>"; };
+		B8F526DF253F682800B17E7E /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		B8F86ED025409E3D00B56ED7 /* HypedListiOSWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HypedListiOSWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8F86ED225409E3D00B56ED7 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		B8F86ED425409E3D00B56ED7 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		B8F86ED725409E3D00B56ED7 /* HypedListiOSWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedListiOSWidget.swift; sourceTree = "<group>"; };
+		B8F86ED925409E3D00B56ED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8F86EDB25409E3D00B56ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8F86EF22540ACF600B56ED7 /* HypedListiOSWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HypedListiOSWidgetExtension.entitlements; sourceTree = "<group>"; };
+		B8F86EF52540E69700B56ED7 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B8F86EF92540E7C800B56ED7 /* HypedListSidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedListSidebarView.swift; sourceTree = "<group>"; };
+		B8F86EFF2541159E00B56ED7 /* HypedListWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypedListWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8F86F012541159F00B56ED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8F86F032541159F00B56ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8F86F082541159F00B56ED7 /* HypedListWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HypedListWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B8F86F0D2541159F00B56ED7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B8F86F0F2541159F00B56ED7 /* HypedListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedListApp.swift; sourceTree = "<group>"; };
+		B8F86F112541159F00B56ED7 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		B8F86F13254115A000B56ED7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B8F86F16254115A000B56ED7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B8F86F18254115A000B56ED7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B8F86F282541169400B56ED7 /* HypedEventWatchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedEventWatchListView.swift; sourceTree = "<group>"; };
+		B8F86F3B25411C1F00B56ED7 /* PhoneToWatchDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneToWatchDataController.swift; sourceTree = "<group>"; };
+		B8F86F46254120F200B56ED7 /* WatchToPhoneDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchToPhoneDataController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C4A0D1027034B5A00B8A792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7028D02704AB86005B6880 /* UIColor_Hex_Swift in Frameworks */,
+				6C7028CE2704AB86005B6880 /* SwiftDate in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7028DC2708687A005B6880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7028E12708687A005B6880 /* SwiftUI.framework in Frameworks */,
+				6C7028E02708687A005B6880 /* WidgetKit.framework in Frameworks */,
+				6C7028F7270868E3005B6880 /* UIColor_Hex_Swift in Frameworks */,
+				6C7028F5270868E3005B6880 /* SwiftDate in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7028F92708698E005B6880 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C70291127086AAA005B6880 /* UIColor_Hex_Swift in Frameworks */,
+				6C70290F27086AAA005B6880 /* SwiftDate in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F52691253B87A400B17E7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B816A718253F9A8100BF6446 /* UIColor_Hex_Swift in Frameworks */,
+				B8F526DD253F64D800B17E7E /* SwiftDate in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F86ECD25409E3D00B56ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F86ED525409E3D00B56ED7 /* SwiftUI.framework in Frameworks */,
+				B8F86ED325409E3D00B56ED7 /* WidgetKit.framework in Frameworks */,
+				B8F86EEE2540A03C00B56ED7 /* UIColor_Hex_Swift in Frameworks */,
+				B8F86EEC2540A03800B56ED7 /* SwiftDate in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F86F052541159F00B56ED7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F86F36254116D100B56ED7 /* UIColor_Hex_Swift in Frameworks */,
+				B8F86F34254116D100B56ED7 /* SwiftDate in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C4A0D1427034B5B00B8A792 /* HypedListMac */ = {
+			isa = PBXGroup;
+			children = (
+				6C4A0D1527034B5B00B8A792 /* HypedListMacApp.swift */,
+				6C4A0D1727034B5B00B8A792 /* ContentView.swift */,
+				6C4A0D1927034B5C00B8A792 /* Assets.xcassets */,
+				6C4A0D1E27034B5C00B8A792 /* Info.plist */,
+				6C4A0D1F27034B5C00B8A792 /* HypedListMac.entitlements */,
+				6C4A0D1B27034B5C00B8A792 /* Preview Content */,
+			);
+			path = HypedListMac;
+			sourceTree = "<group>";
+		};
+		6C4A0D1B27034B5C00B8A792 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C4A0D1C27034B5C00B8A792 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C7028E22708687A005B6880 /* HypedListMacWidget */ = {
+			isa = PBXGroup;
+			children = (
+				6C7028E52708687B005B6880 /* Assets.xcassets */,
+				6C7028E72708687B005B6880 /* Info.plist */,
+				6C7028E82708687B005B6880 /* HypedListMacWidget.entitlements */,
+			);
+			path = HypedListMacWidget;
+			sourceTree = "<group>";
+		};
+		6C7028FD2708698E005B6880 /* HypedListTV */ = {
+			isa = PBXGroup;
+			children = (
+				6C70290B2708699C005B6880 /* HypedListTV.entitlements */,
+				6C7028FE2708698E005B6880 /* HypedListTVApp.swift */,
+				6C7029002708698E005B6880 /* ContentView.swift */,
+				6C70290C27086A61005B6880 /* HypedEventTVListView.swift */,
+				6C70291627086E0B005B6880 /* HypedEventTVTileView.swift */,
+				6C7029022708698F005B6880 /* Assets.xcassets */,
+				6C7029072708698F005B6880 /* Info.plist */,
+				6C7029042708698F005B6880 /* Preview Content */,
+			);
+			path = HypedListTV;
+			sourceTree = "<group>";
+		};
+		6C7029042708698F005B6880 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C7029052708698F005B6880 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B8F5268B253B87A400B17E7E = {
+			isa = PBXGroup;
+			children = (
+				6C4A0D2527034D4F00B8A792 /* HypedListiOSWidgetExtension.entitlements */,
+				6C4A0D2327034CEA00B8A792 /* HypedListiOS.entitlements */,
+				B8F52696253B87A400B17E7E /* HypedList */,
+				B8F86ED625409E3D00B56ED7 /* HypedListiOSWidget */,
+				B8F86F002541159E00B56ED7 /* HypedListWatch */,
+				B8F86F0C2541159F00B56ED7 /* HypedListWatch Extension */,
+				6C4A0D1427034B5B00B8A792 /* HypedListMac */,
+				6C7028E22708687A005B6880 /* HypedListMacWidget */,
+				6C7028FD2708698E005B6880 /* HypedListTV */,
+				B8F86ED125409E3D00B56ED7 /* Frameworks */,
+				B8F52695253B87A400B17E7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B8F52695253B87A400B17E7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B8F52694253B87A400B17E7E /* HypedListiOS.app */,
+				B8F86ED025409E3D00B56ED7 /* HypedListiOSWidgetExtension.appex */,
+				B8F86EFF2541159E00B56ED7 /* HypedListWatch.app */,
+				B8F86F082541159F00B56ED7 /* HypedListWatch Extension.appex */,
+				6C4A0D1327034B5B00B8A792 /* HypedListMac.app */,
+				6C7028DF2708687A005B6880 /* HypedListMacWidgetExtension.appex */,
+				6C7028FC2708698E005B6880 /* HypedListTV.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B8F52696253B87A400B17E7E /* HypedList */ = {
+			isa = PBXGroup;
+			children = (
+				B8F52697253B87A400B17E7E /* HypedListApp.swift */,
+				B8F86EF52540E69700B56ED7 /* MainView.swift */,
+				B8F86EF92540E7C800B56ED7 /* HypedListSidebarView.swift */,
+				B8F52699253B87A400B17E7E /* HypedListTabView.swift */,
+				B8F526E3253F97CD00B17E7E /* Views */,
+				B8F526E2253F97BD00B17E7E /* Data */,
+				B8F5269B253B87A500B17E7E /* Assets.xcassets */,
+				B8F526A0253B87A500B17E7E /* Info.plist */,
+				B8F5269D253B87A500B17E7E /* Preview Content */,
+			);
+			path = HypedList;
+			sourceTree = "<group>";
+		};
+		B8F5269D253B87A500B17E7E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B8F5269E253B87A500B17E7E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B8F526E2253F97BD00B17E7E /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				B8F526DF253F682800B17E7E /* DataController.swift */,
+				B8F526AE253B900000B17E7E /* HypedEvent.swift */,
+				B8F86F3B25411C1F00B56ED7 /* PhoneToWatchDataController.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		B8F526E3253F97CD00B17E7E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B816A71A253FCFD500BF6446 /* HypedEventListView.swift */,
+				B8F526A8253B898F00B17E7E /* UpcomingView.swift */,
+				B816A721253FEA5D00BF6446 /* DiscoverView.swift */,
+				B816A71E253FD14F00BF6446 /* PastView.swift */,
+				B8F526AB253B8EAB00B17E7E /* CreateHypedEventView.swift */,
+				B8F526D8253E757700B17E7E /* HypedEventTileView.swift */,
+				B8F526D5253B9B5D00B17E7E /* ImagePicker.swift */,
+				B8F526B1253B962A00B17E7E /* FormLabelView.swift */,
+				B816A725253FEE5F00BF6446 /* HypedEventDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B8F86ED125409E3D00B56ED7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8F86ED225409E3D00B56ED7 /* WidgetKit.framework */,
+				B8F86ED425409E3D00B56ED7 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8F86ED625409E3D00B56ED7 /* HypedListiOSWidget */ = {
+			isa = PBXGroup;
+			children = (
+				B8F86EF22540ACF600B56ED7 /* HypedListiOSWidgetExtension.entitlements */,
+				B8F86ED725409E3D00B56ED7 /* HypedListiOSWidget.swift */,
+				B8F86ED925409E3D00B56ED7 /* Assets.xcassets */,
+				B8F86EDB25409E3D00B56ED7 /* Info.plist */,
+			);
+			path = HypedListiOSWidget;
+			sourceTree = "<group>";
+		};
+		B8F86F002541159E00B56ED7 /* HypedListWatch */ = {
+			isa = PBXGroup;
+			children = (
+				6C4A0D2427034D2600B8A792 /* HypedListWatch.entitlements */,
+				B8F86F012541159F00B56ED7 /* Assets.xcassets */,
+				B8F86F032541159F00B56ED7 /* Info.plist */,
+			);
+			path = HypedListWatch;
+			sourceTree = "<group>";
+		};
+		B8F86F0C2541159F00B56ED7 /* HypedListWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6C7028A427034D77005B6880 /* HypedListWatch Extension.entitlements */,
+				B8F86F0D2541159F00B56ED7 /* ContentView.swift */,
+				B8F86F282541169400B56ED7 /* HypedEventWatchListView.swift */,
+				B8F86F0F2541159F00B56ED7 /* HypedListApp.swift */,
+				B8F86F112541159F00B56ED7 /* ComplicationController.swift */,
+				B8F86F46254120F200B56ED7 /* WatchToPhoneDataController.swift */,
+				B8F86F13254115A000B56ED7 /* Assets.xcassets */,
+				B8F86F18254115A000B56ED7 /* Info.plist */,
+				B8F86F15254115A000B56ED7 /* Preview Content */,
+			);
+			path = "HypedListWatch Extension";
+			sourceTree = "<group>";
+		};
+		B8F86F15254115A000B56ED7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B8F86F16254115A000B56ED7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C4A0D1227034B5A00B8A792 /* HypedListMac */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4A0D2027034B5C00B8A792 /* Build configuration list for PBXNativeTarget "HypedListMac" */;
+			buildPhases = (
+				6C4A0D0F27034B5A00B8A792 /* Sources */,
+				6C4A0D1027034B5A00B8A792 /* Frameworks */,
+				6C4A0D1127034B5A00B8A792 /* Resources */,
+				6C7028EC2708687B005B6880 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C7028EA2708687B005B6880 /* PBXTargetDependency */,
+			);
+			name = HypedListMac;
+			packageProductDependencies = (
+				6C7028CD2704AB86005B6880 /* SwiftDate */,
+				6C7028CF2704AB86005B6880 /* UIColor_Hex_Swift */,
+			);
+			productName = HypedListMac;
+			productReference = 6C4A0D1327034B5B00B8A792 /* HypedListMac.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6C7028DE2708687A005B6880 /* HypedListMacWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7028EF2708687B005B6880 /* Build configuration list for PBXNativeTarget "HypedListMacWidgetExtension" */;
+			buildPhases = (
+				6C7028DB2708687A005B6880 /* Sources */,
+				6C7028DC2708687A005B6880 /* Frameworks */,
+				6C7028DD2708687A005B6880 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HypedListMacWidgetExtension;
+			packageProductDependencies = (
+				6C7028F4270868E3005B6880 /* SwiftDate */,
+				6C7028F6270868E3005B6880 /* UIColor_Hex_Swift */,
+			);
+			productName = HypedListMacWidgetExtension;
+			productReference = 6C7028DF2708687A005B6880 /* HypedListMacWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		6C7028FB2708698E005B6880 /* HypedListTV */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C7029082708698F005B6880 /* Build configuration list for PBXNativeTarget "HypedListTV" */;
+			buildPhases = (
+				6C7028F82708698E005B6880 /* Sources */,
+				6C7028F92708698E005B6880 /* Frameworks */,
+				6C7028FA2708698E005B6880 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HypedListTV;
+			packageProductDependencies = (
+				6C70290E27086AAA005B6880 /* SwiftDate */,
+				6C70291027086AAA005B6880 /* UIColor_Hex_Swift */,
+			);
+			productName = HypedListTV;
+			productReference = 6C7028FC2708698E005B6880 /* HypedListTV.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8F52693253B87A400B17E7E /* HypedListiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8F526A3253B87A500B17E7E /* Build configuration list for PBXNativeTarget "HypedListiOS" */;
+			buildPhases = (
+				B8F52690253B87A400B17E7E /* Sources */,
+				B8F52691253B87A400B17E7E /* Frameworks */,
+				B8F52692253B87A400B17E7E /* Resources */,
+				B8F86EE225409E3D00B56ED7 /* Embed App Extensions */,
+				B8F86F23254115A000B56ED7 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8F86EDD25409E3D00B56ED7 /* PBXTargetDependency */,
+				B8F86F1A254115A000B56ED7 /* PBXTargetDependency */,
+			);
+			name = HypedListiOS;
+			packageProductDependencies = (
+				B8F526DC253F64D800B17E7E /* SwiftDate */,
+				B816A717253F9A8100BF6446 /* UIColor_Hex_Swift */,
+			);
+			productName = HypedList;
+			productReference = B8F52694253B87A400B17E7E /* HypedListiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B8F86ECF25409E3D00B56ED7 /* HypedListiOSWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8F86EDF25409E3D00B56ED7 /* Build configuration list for PBXNativeTarget "HypedListiOSWidgetExtension" */;
+			buildPhases = (
+				B8F86ECC25409E3D00B56ED7 /* Sources */,
+				B8F86ECD25409E3D00B56ED7 /* Frameworks */,
+				B8F86ECE25409E3D00B56ED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HypedListiOSWidgetExtension;
+			packageProductDependencies = (
+				B8F86EEB2540A03800B56ED7 /* SwiftDate */,
+				B8F86EED2540A03C00B56ED7 /* UIColor_Hex_Swift */,
+			);
+			productName = HypedListiOSWidgetExtension;
+			productReference = B8F86ED025409E3D00B56ED7 /* HypedListiOSWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B8F86EFE2541159E00B56ED7 /* HypedListWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8F86F20254115A000B56ED7 /* Build configuration list for PBXNativeTarget "HypedListWatch" */;
+			buildPhases = (
+				B8F86EFD2541159E00B56ED7 /* Resources */,
+				B8F86F1F254115A000B56ED7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8F86F0B2541159F00B56ED7 /* PBXTargetDependency */,
+			);
+			name = HypedListWatch;
+			productName = HypedListWatch;
+			productReference = B8F86EFF2541159E00B56ED7 /* HypedListWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		B8F86F072541159F00B56ED7 /* HypedListWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B8F86F1C254115A000B56ED7 /* Build configuration list for PBXNativeTarget "HypedListWatch Extension" */;
+			buildPhases = (
+				B8F86F042541159F00B56ED7 /* Sources */,
+				B8F86F052541159F00B56ED7 /* Frameworks */,
+				B8F86F062541159F00B56ED7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HypedListWatch Extension";
+			packageProductDependencies = (
+				B8F86F33254116D100B56ED7 /* SwiftDate */,
+				B8F86F35254116D100B56ED7 /* UIColor_Hex_Swift */,
+			);
+			productName = "HypedListWatch Extension";
+			productReference = B8F86F082541159F00B56ED7 /* HypedListWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B8F5268C253B87A400B17E7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1200;
+				TargetAttributes = {
+					6C4A0D1227034B5A00B8A792 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					6C7028DE2708687A005B6880 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					6C7028FB2708698E005B6880 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					B8F52693253B87A400B17E7E = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					B8F86ECF25409E3D00B56ED7 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					B8F86EFE2541159E00B56ED7 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+					B8F86F072541159F00B56ED7 = {
+						CreatedOnToolsVersion = 12.0.1;
+					};
+				};
+			};
+			buildConfigurationList = B8F5268F253B87A400B17E7E /* Build configuration list for PBXProject "HypedList" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B8F5268B253B87A400B17E7E;
+			packageReferences = (
+				B8F526DB253F64D800B17E7E /* XCRemoteSwiftPackageReference "SwiftDate" */,
+				B816A716253F9A8100BF6446 /* XCRemoteSwiftPackageReference "UIColor-Hex-Swift" */,
+			);
+			productRefGroup = B8F52695253B87A400B17E7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B8F52693253B87A400B17E7E /* HypedListiOS */,
+				B8F86ECF25409E3D00B56ED7 /* HypedListiOSWidgetExtension */,
+				B8F86EFE2541159E00B56ED7 /* HypedListWatch */,
+				B8F86F072541159F00B56ED7 /* HypedListWatch Extension */,
+				6C4A0D1227034B5A00B8A792 /* HypedListMac */,
+				6C7028DE2708687A005B6880 /* HypedListMacWidgetExtension */,
+				6C7028FB2708698E005B6880 /* HypedListTV */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C4A0D1127034B5A00B8A792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4A0D1D27034B5C00B8A792 /* Preview Assets.xcassets in Resources */,
+				6C7028D92704AE0F005B6880 /* Assets.xcassets in Resources */,
+				6C4A0D1A27034B5C00B8A792 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7028DD2708687A005B6880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7028E62708687B005B6880 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7028FA2708698E005B6880 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7029062708698F005B6880 /* Preview Assets.xcassets in Resources */,
+				6C70291527086D9B005B6880 /* Assets.xcassets in Resources */,
+				6C7029032708698F005B6880 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F52692253B87A400B17E7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F5269F253B87A500B17E7E /* Preview Assets.xcassets in Resources */,
+				B8F5269C253B87A500B17E7E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F86ECE25409E3D00B56ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F86EDA25409E3D00B56ED7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F86EFD2541159E00B56ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F86F022541159F00B56ED7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F86F062541159F00B56ED7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F86F17254115A000B56ED7 /* Preview Assets.xcassets in Resources */,
+				B8F86F14254115A000B56ED7 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C4A0D0F27034B5A00B8A792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4A0D1827034B5B00B8A792 /* ContentView.swift in Sources */,
+				6C7028CB2704AB75005B6880 /* DataController.swift in Sources */,
+				6C7028D82704AC2A005B6880 /* HypedEventListView.swift in Sources */,
+				6C7028D42704AC2A005B6880 /* UpcomingView.swift in Sources */,
+				6C7028D52704AC2A005B6880 /* HypedEventTileView.swift in Sources */,
+				6C7028D22704AC2A005B6880 /* PastView.swift in Sources */,
+				6C7028D32704AC2A005B6880 /* CreateHypedEventView.swift in Sources */,
+				6C7028D12704AC2A005B6880 /* DiscoverView.swift in Sources */,
+				6C7028D72704AC2A005B6880 /* FormLabelView.swift in Sources */,
+				6C7028DA2705F1CD005B6880 /* HypedListSidebarView.swift in Sources */,
+				6C7028D62704AC2A005B6880 /* HypedEventDetailView.swift in Sources */,
+				6C4A0D1627034B5B00B8A792 /* HypedListMacApp.swift in Sources */,
+				6C7028CC2704AB75005B6880 /* HypedEvent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7028DB2708687A005B6880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C7028F1270868AF005B6880 /* HypedListiOSWidget.swift in Sources */,
+				6C7028F3270868BF005B6880 /* DataController.swift in Sources */,
+				6C7028F2270868BF005B6880 /* HypedEvent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C7028F82708698E005B6880 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C70291727086E0B005B6880 /* HypedEventTVTileView.swift in Sources */,
+				6C70291427086B7A005B6880 /* HypedEventTileView.swift in Sources */,
+				6C70291327086AE4005B6880 /* DataController.swift in Sources */,
+				6C7029012708698E005B6880 /* ContentView.swift in Sources */,
+				6C70290D27086A61005B6880 /* HypedEventTVListView.swift in Sources */,
+				6C7028FF2708698E005B6880 /* HypedListTVApp.swift in Sources */,
+				6C70291227086AE2005B6880 /* HypedEvent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F52690253B87A400B17E7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F526D9253E757700B17E7E /* HypedEventTileView.swift in Sources */,
+				B8F86EF62540E69700B56ED7 /* MainView.swift in Sources */,
+				B8F526AC253B8EAB00B17E7E /* CreateHypedEventView.swift in Sources */,
+				B816A71F253FD14F00BF6446 /* PastView.swift in Sources */,
+				B8F86EFA2540E7C800B56ED7 /* HypedListSidebarView.swift in Sources */,
+				B8F526B2253B962A00B17E7E /* FormLabelView.swift in Sources */,
+				B8F526AF253B900000B17E7E /* HypedEvent.swift in Sources */,
+				B816A726253FEE5F00BF6446 /* HypedEventDetailView.swift in Sources */,
+				B8F526E0253F682800B17E7E /* DataController.swift in Sources */,
+				B8F526D6253B9B5D00B17E7E /* ImagePicker.swift in Sources */,
+				B8F86F3C25411C1F00B56ED7 /* PhoneToWatchDataController.swift in Sources */,
+				B8F5269A253B87A400B17E7E /* HypedListTabView.swift in Sources */,
+				B8F52698253B87A400B17E7E /* HypedListApp.swift in Sources */,
+				B816A71B253FCFD500BF6446 /* HypedEventListView.swift in Sources */,
+				B8F526A9253B898F00B17E7E /* UpcomingView.swift in Sources */,
+				B816A722253FEA5D00BF6446 /* DiscoverView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F86ECC25409E3D00B56ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F86ED825409E3D00B56ED7 /* HypedListiOSWidget.swift in Sources */,
+				B8F86EE82540A01200B56ED7 /* DataController.swift in Sources */,
+				B8F86F4125411FAA00B56ED7 /* PhoneToWatchDataController.swift in Sources */,
+				B8F86EE525409FBB00B56ED7 /* HypedEvent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8F86F042541159F00B56ED7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B8F86F47254120F200B56ED7 /* WatchToPhoneDataController.swift in Sources */,
+				B8F86F102541159F00B56ED7 /* HypedListApp.swift in Sources */,
+				B8F86F2E254116B900B56ED7 /* HypedEvent.swift in Sources */,
+				B8F86F0E2541159F00B56ED7 /* ContentView.swift in Sources */,
+				B8F86F292541169400B56ED7 /* HypedEventWatchListView.swift in Sources */,
+				B8F86F122541159F00B56ED7 /* ComplicationController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C7028EA2708687B005B6880 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C7028DE2708687A005B6880 /* HypedListMacWidgetExtension */;
+			targetProxy = 6C7028E92708687B005B6880 /* PBXContainerItemProxy */;
+		};
+		B8F86EDD25409E3D00B56ED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8F86ECF25409E3D00B56ED7 /* HypedListiOSWidgetExtension */;
+			targetProxy = B8F86EDC25409E3D00B56ED7 /* PBXContainerItemProxy */;
+		};
+		B8F86F0B2541159F00B56ED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8F86F072541159F00B56ED7 /* HypedListWatch Extension */;
+			targetProxy = B8F86F0A2541159F00B56ED7 /* PBXContainerItemProxy */;
+		};
+		B8F86F1A254115A000B56ED7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B8F86EFE2541159E00B56ED7 /* HypedListWatch */;
+			targetProxy = B8F86F19254115A000B56ED7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6C4A0D2127034B5C00B8A792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HypedListMac/HypedListMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"HypedListMac/Preview Content\"";
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HypedListMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paigeshin.HypedListMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6C4A0D2227034B5C00B8A792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HypedListMac/HypedListMac.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_ASSET_PATHS = "\"HypedListMac/Preview Content\"";
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HypedListMac/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paigeshin.HypedListMac;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6C7028ED2708687B005B6880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = HypedListMacWidget/HypedListMacWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = HypedListMacWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paigeshin.HypedListMac.HypedListMacWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		6C7028EE2708687B005B6880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = HypedListMacWidget/HypedListMacWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = HypedListMacWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paigeshin.HypedListMac.HypedListMacWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		6C7029092708698F005B6880 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HypedListTV/HypedListTV.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HypedListTV/Preview Content\"";
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HypedListTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paigeshin.HypedListTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.5;
+			};
+			name = Debug;
+		};
+		6C70290A2708698F005B6880 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HypedListTV/HypedListTV.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HypedListTV/Preview Content\"";
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HypedListTV/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paigeshin.HypedListTV;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 14.5;
+			};
+			name = Release;
+		};
+		B8F526A1253B87A500B17E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B8F526A2253B87A500B17E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B8F526A4253B87A500B17E7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HypedListiOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HypedList/Preview Content\"";
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HypedList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paige.hypelist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8F526A5253B87A500B17E7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HypedListiOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HypedList/Preview Content\"";
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = HypedList/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paige.hypelist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B8F86EE025409E3D00B56ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = HypedListiOSWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				INFOPLIST_FILE = HypedListiOSWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paige.hypelist.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B8F86EE125409E3D00B56ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = HypedListiOSWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				INFOPLIST_FILE = HypedListiOSWidget/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paige.hypelist.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B8F86F1D254115A000B56ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "HypedListWatch Extension/HypedListWatch Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HypedListWatch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HypedListWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paige.hypelist.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		B8F86F1E254115A000B56ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_ENTITLEMENTS = "HypedListWatch Extension/HypedListWatch Extension.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HypedListWatch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HypedListWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paige.hypelist.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+		B8F86F21254115A000B56ED7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HypedListWatch/HypedListWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				IBSC_MODULE = HypedListWatch_Extension;
+				INFOPLIST_FILE = HypedListWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paige.hypelist.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Debug;
+		};
+		B8F86F22254115A000B56ED7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HypedListWatch/HypedListWatch.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				IBSC_MODULE = HypedListWatch_Extension;
+				INFOPLIST_FILE = HypedListWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = com.paige.hypelist.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C4A0D2027034B5C00B8A792 /* Build configuration list for PBXNativeTarget "HypedListMac" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4A0D2127034B5C00B8A792 /* Debug */,
+				6C4A0D2227034B5C00B8A792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C7028EF2708687B005B6880 /* Build configuration list for PBXNativeTarget "HypedListMacWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7028ED2708687B005B6880 /* Debug */,
+				6C7028EE2708687B005B6880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C7029082708698F005B6880 /* Build configuration list for PBXNativeTarget "HypedListTV" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C7029092708698F005B6880 /* Debug */,
+				6C70290A2708698F005B6880 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8F5268F253B87A400B17E7E /* Build configuration list for PBXProject "HypedList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8F526A1253B87A500B17E7E /* Debug */,
+				B8F526A2253B87A500B17E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8F526A3253B87A500B17E7E /* Build configuration list for PBXNativeTarget "HypedListiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8F526A4253B87A500B17E7E /* Debug */,
+				B8F526A5253B87A500B17E7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8F86EDF25409E3D00B56ED7 /* Build configuration list for PBXNativeTarget "HypedListiOSWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8F86EE025409E3D00B56ED7 /* Debug */,
+				B8F86EE125409E3D00B56ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8F86F1C254115A000B56ED7 /* Build configuration list for PBXNativeTarget "HypedListWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8F86F1D254115A000B56ED7 /* Debug */,
+				B8F86F1E254115A000B56ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B8F86F20254115A000B56ED7 /* Build configuration list for PBXNativeTarget "HypedListWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8F86F21254115A000B56ED7 /* Debug */,
+				B8F86F22254115A000B56ED7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B816A716253F9A8100BF6446 /* XCRemoteSwiftPackageReference "UIColor-Hex-Swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/yeahdongcn/UIColor-Hex-Swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.1.1;
+			};
+		};
+		B8F526DB253F64D800B17E7E /* XCRemoteSwiftPackageReference "SwiftDate" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/malcommac/SwiftDate.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.2.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6C7028CD2704AB86005B6880 /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8F526DB253F64D800B17E7E /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+		6C7028CF2704AB86005B6880 /* UIColor_Hex_Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B816A716253F9A8100BF6446 /* XCRemoteSwiftPackageReference "UIColor-Hex-Swift" */;
+			productName = UIColor_Hex_Swift;
+		};
+		6C7028F4270868E3005B6880 /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8F526DB253F64D800B17E7E /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+		6C7028F6270868E3005B6880 /* UIColor_Hex_Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B816A716253F9A8100BF6446 /* XCRemoteSwiftPackageReference "UIColor-Hex-Swift" */;
+			productName = UIColor_Hex_Swift;
+		};
+		6C70290E27086AAA005B6880 /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8F526DB253F64D800B17E7E /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+		6C70291027086AAA005B6880 /* UIColor_Hex_Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B816A716253F9A8100BF6446 /* XCRemoteSwiftPackageReference "UIColor-Hex-Swift" */;
+			productName = UIColor_Hex_Swift;
+		};
+		B816A717253F9A8100BF6446 /* UIColor_Hex_Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B816A716253F9A8100BF6446 /* XCRemoteSwiftPackageReference "UIColor-Hex-Swift" */;
+			productName = UIColor_Hex_Swift;
+		};
+		B8F526DC253F64D800B17E7E /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8F526DB253F64D800B17E7E /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+		B8F86EEB2540A03800B56ED7 /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8F526DB253F64D800B17E7E /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+		B8F86EED2540A03C00B56ED7 /* UIColor_Hex_Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B816A716253F9A8100BF6446 /* XCRemoteSwiftPackageReference "UIColor-Hex-Swift" */;
+			productName = UIColor_Hex_Swift;
+		};
+		B8F86F33254116D100B56ED7 /* SwiftDate */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B8F526DB253F64D800B17E7E /* XCRemoteSwiftPackageReference "SwiftDate" */;
+			productName = SwiftDate;
+		};
+		B8F86F35254116D100B56ED7 /* UIColor_Hex_Swift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B816A716253F9A8100BF6446 /* XCRemoteSwiftPackageReference "UIColor-Hex-Swift" */;
+			productName = UIColor_Hex_Swift;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = B8F5268C253B87A400B17E7E /* Project object */;
+}

@@ -1,0 +1,6 @@
+module Pods_HypeListWatch_Extension {
+  umbrella header "Pods-HypeListWatch Extension-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module Pods_HypeList__iOS_ {
+  umbrella header "Pods-HypeList (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}

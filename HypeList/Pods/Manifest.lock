@@ -1,0 +1,20 @@
+PODS:
+  - SwiftDate (5.1.0)
+  - UIColor_Hex_Swift (5.1.7)
+
+DEPENDENCIES:
+  - SwiftDate (~> 5.0)
+  - UIColor_Hex_Swift (~> 5.1.7)
+
+SPEC REPOS:
+  trunk:
+    - SwiftDate
+    - UIColor_Hex_Swift
+
+SPEC CHECKSUMS:
+  SwiftDate: 6329e58969a2de31cea7f1ee1143b247693196e7
+  UIColor_Hex_Swift: 31cd3e47440f07a20d2503a36bb0437a445b3c29
+
+PODFILE CHECKSUM: 3e85d8b1e0ec486b39a76d38b5c9da670335d0a8
+
+COCOAPODS: 1.11.2

@@ -1,0 +1,1150 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63564686C135D304304F5925 /* libPods-HypeListWatch.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C16F74830A5BC3DF8ED3534E /* libPods-HypeListWatch.a */; };
+		6C4A0C5026FF4F2A00B8A792 /* HypedEventListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0C4F26FF4F2A00B8A792 /* HypedEventListView.swift */; };
+		6C4A0C5226FF505B00B8A792 /* PastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0C5126FF505B00B8A792 /* PastView.swift */; };
+		6C4A0C5426FF5B1B00B8A792 /* DiscoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0C5326FF5B1B00B8A792 /* DiscoverView.swift */; };
+		6C4A0C5626FF5CDE00B8A792 /* HypedEventDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0C5526FF5CDE00B8A792 /* HypedEventDetailView.swift */; };
+		6C4A0C5D26FF928F00B8A792 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4A0C5C26FF928F00B8A792 /* WidgetKit.framework */; };
+		6C4A0C5F26FF928F00B8A792 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C4A0C5E26FF928F00B8A792 /* SwiftUI.framework */; };
+		6C4A0C6226FF928F00B8A792 /* HypedListWidget.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0C6126FF928F00B8A792 /* HypedListWidget.swift */; };
+		6C4A0C6426FF929600B8A792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4A0C6326FF929600B8A792 /* Assets.xcassets */; };
+		6C4A0C6826FF929600B8A792 /* HypedListWidgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6C4A0C5B26FF928F00B8A792 /* HypedListWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6C4A0C6D26FF942400B8A792 /* HypedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C763E8726FB105300DE9322 /* HypedEvent.swift */; };
+		6C4A0C6F26FF960900B8A792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C763E6226FB0DF300DE9322 /* Assets.xcassets */; };
+		6C4A0C73270093D600B8A792 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0C72270093D600B8A792 /* MainView.swift */; };
+		6C4A0C752700949F00B8A792 /* HypedListSidebarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0C742700949F00B8A792 /* HypedListSidebarView.swift */; };
+		6C4A0C7B2700A6C400B8A792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4A0C7A2700A6C400B8A792 /* Assets.xcassets */; };
+		6C4A0C822700A6C400B8A792 /* HypeListWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 6C4A0C812700A6C400B8A792 /* HypeListWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6C4A0C872700A6C400B8A792 /* HypeListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0C862700A6C400B8A792 /* HypeListApp.swift */; };
+		6C4A0C892700A6C400B8A792 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0C882700A6C400B8A792 /* ContentView.swift */; };
+		6C4A0C8B2700A6C400B8A792 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0C8A2700A6C400B8A792 /* NotificationController.swift */; };
+		6C4A0C8D2700A6C400B8A792 /* NotificationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0C8C2700A6C400B8A792 /* NotificationView.swift */; };
+		6C4A0C8F2700A6C400B8A792 /* ComplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0C8E2700A6C400B8A792 /* ComplicationController.swift */; };
+		6C4A0C912700A6C500B8A792 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4A0C902700A6C500B8A792 /* Assets.xcassets */; };
+		6C4A0C942700A6C500B8A792 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C4A0C932700A6C500B8A792 /* Preview Assets.xcassets */; };
+		6C4A0C992700A6C500B8A792 /* HypeListWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 6C4A0C782700A6C300B8A792 /* HypeListWatch.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		6C4A0CA32700A74300B8A792 /* HypeEventWatchListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0CA22700A74300B8A792 /* HypeEventWatchListView.swift */; };
+		6C4A0CA42700A75800B8A792 /* HypedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C763E8726FB105300DE9322 /* HypedEvent.swift */; };
+		6C4A0CB62700B0CC00B8A792 /* PhoneToWatchDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0CB52700B0CC00B8A792 /* PhoneToWatchDataController.swift */; };
+		6C4A0CBA2700BD0400B8A792 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C920D6526FDFC5E00181D11 /* DataController.swift */; };
+		6C4A0CBC2700BD1E00B8A792 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C920D6526FDFC5E00181D11 /* DataController.swift */; };
+		6C4A0CBF2700BDB100B8A792 /* PhoneToWatchDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0CB52700B0CC00B8A792 /* PhoneToWatchDataController.swift */; };
+		6C4A0CC02700BE3D00B8A792 /* PhoneToWatchDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0CB52700B0CC00B8A792 /* PhoneToWatchDataController.swift */; };
+		6C4A0CC22700BF3700B8A792 /* WatchToPhoneDataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4A0CC12700BF3700B8A792 /* WatchToPhoneDataController.swift */; };
+		6C763E7326FB0DF300DE9322 /* HypeListApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C763E6026FB0DF200DE9322 /* HypeListApp.swift */; };
+		6C763E7526FB0DF300DE9322 /* HypedListTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C763E6126FB0DF200DE9322 /* HypedListTabView.swift */; };
+		6C763E7726FB0DF300DE9322 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6C763E6226FB0DF300DE9322 /* Assets.xcassets */; };
+		6C763E8226FB0E5B00DE9322 /* UpcomingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C763E8126FB0E5B00DE9322 /* UpcomingView.swift */; };
+		6C763E8526FB0FE700DE9322 /* CreateHypedEventView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C763E8426FB0FE700DE9322 /* CreateHypedEventView.swift */; };
+		6C763E8826FB105300DE9322 /* HypedEvent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C763E8726FB105300DE9322 /* HypedEvent.swift */; };
+		6C763E8B26FB443B00DE9322 /* FormLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C763E8A26FB443B00DE9322 /* FormLabelView.swift */; };
+		6C763E8E26FB466700DE9322 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C763E8D26FB466700DE9322 /* ImagePicker.swift */; };
+		6C763E9426FB693300DE9322 /* HypedEventTileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C763E9326FB693300DE9322 /* HypedEventTileView.swift */; };
+		6C920D6626FDFC5E00181D11 /* DataController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C920D6526FDFC5E00181D11 /* DataController.swift */; };
+		D79F5C1081488A5919DBBB51 /* libPods-HypeListWatch Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 61E8268EBCF225DA6BF39FB3 /* libPods-HypeListWatch Extension.a */; };
+		ED3ADD843836706245ED3D24 /* Pods_HypeList__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A95416C6EBB9EACB7E557AE1 /* Pods_HypeList__iOS_.framework */; };
+		F5AAC593041C4AEFE4CD2AEC /* Pods_HypedListWidgetExtension.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 472D743C0D5CDFC43DCABFCD /* Pods_HypedListWidgetExtension.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6C4A0C6626FF929600B8A792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C763E5B26FB0DF200DE9322 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C4A0C5A26FF928F00B8A792;
+			remoteInfo = HypedListWidgetExtension;
+		};
+		6C4A0C832700A6C400B8A792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C763E5B26FB0DF200DE9322 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C4A0C802700A6C400B8A792;
+			remoteInfo = "HypeListWatch Extension";
+		};
+		6C4A0C972700A6C500B8A792 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6C763E5B26FB0DF200DE9322 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6C4A0C772700A6C300B8A792;
+			remoteInfo = HypeListWatch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		6C4A0C6C26FF929600B8A792 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6C4A0C6826FF929600B8A792 /* HypedListWidgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4A0C9D2700A6C500B8A792 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				6C4A0C822700A6C400B8A792 /* HypeListWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4A0CA12700A6C500B8A792 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				6C4A0C992700A6C500B8A792 /* HypeListWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C763E9E26FB6D5000DE9322 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		24496823B2171103595F3023 /* Pods-HypeList (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HypeList (macOS).debug.xcconfig"; path = "Target Support Files/Pods-HypeList (macOS)/Pods-HypeList (macOS).debug.xcconfig"; sourceTree = "<group>"; };
+		2C4D8BE3D9741C904296ECBD /* libPods-HypeListMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HypeListMac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D647A43625F6841A05B0133 /* Pods-HypeList (macOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HypeList (macOS).release.xcconfig"; path = "Target Support Files/Pods-HypeList (macOS)/Pods-HypeList (macOS).release.xcconfig"; sourceTree = "<group>"; };
+		326B70F9F410B93B572CDD2A /* Pods-HypeListWatch Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HypeListWatch Extension.release.xcconfig"; path = "Target Support Files/Pods-HypeListWatch Extension/Pods-HypeListWatch Extension.release.xcconfig"; sourceTree = "<group>"; };
+		45C684CB6A98C54D9554FB4F /* libPods-HypedListMac.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HypedListMac.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E756BCD6AD87CD0BAF9D97 /* Pods-HypeList (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HypeList (iOS).release.xcconfig"; path = "Target Support Files/Pods-HypeList (iOS)/Pods-HypeList (iOS).release.xcconfig"; sourceTree = "<group>"; };
+		472D743C0D5CDFC43DCABFCD /* Pods_HypedListWidgetExtension.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HypedListWidgetExtension.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5101139A17EED79883A8C252 /* Pods-HypeListWatch Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HypeListWatch Extension.debug.xcconfig"; path = "Target Support Files/Pods-HypeListWatch Extension/Pods-HypeListWatch Extension.debug.xcconfig"; sourceTree = "<group>"; };
+		61E8268EBCF225DA6BF39FB3 /* libPods-HypeListWatch Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HypeListWatch Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4A0C4F26FF4F2A00B8A792 /* HypedEventListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedEventListView.swift; sourceTree = "<group>"; };
+		6C4A0C5126FF505B00B8A792 /* PastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PastView.swift; sourceTree = "<group>"; };
+		6C4A0C5326FF5B1B00B8A792 /* DiscoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiscoverView.swift; sourceTree = "<group>"; };
+		6C4A0C5526FF5CDE00B8A792 /* HypedEventDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedEventDetailView.swift; sourceTree = "<group>"; };
+		6C4A0C5B26FF928F00B8A792 /* HypedListWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = HypedListWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4A0C5C26FF928F00B8A792 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		6C4A0C5E26FF928F00B8A792 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		6C4A0C6126FF928F00B8A792 /* HypedListWidget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedListWidget.swift; sourceTree = "<group>"; };
+		6C4A0C6326FF929600B8A792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C4A0C6526FF929600B8A792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C4A0C7026FF9F4C00B8A792 /* HypeList.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HypeList.entitlements; sourceTree = "<group>"; };
+		6C4A0C7126FF9F8600B8A792 /* HypedListWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = HypedListWidgetExtension.entitlements; sourceTree = "<group>"; };
+		6C4A0C72270093D600B8A792 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		6C4A0C742700949F00B8A792 /* HypedListSidebarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedListSidebarView.swift; sourceTree = "<group>"; };
+		6C4A0C782700A6C300B8A792 /* HypeListWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypeListWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4A0C7A2700A6C400B8A792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C4A0C7C2700A6C400B8A792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C4A0C812700A6C400B8A792 /* HypeListWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "HypeListWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4A0C862700A6C400B8A792 /* HypeListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypeListApp.swift; sourceTree = "<group>"; };
+		6C4A0C882700A6C400B8A792 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		6C4A0C8A2700A6C400B8A792 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		6C4A0C8C2700A6C400B8A792 /* NotificationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationView.swift; sourceTree = "<group>"; };
+		6C4A0C8E2700A6C400B8A792 /* ComplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComplicationController.swift; sourceTree = "<group>"; };
+		6C4A0C902700A6C500B8A792 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C4A0C932700A6C500B8A792 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6C4A0C952700A6C500B8A792 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C4A0C962700A6C500B8A792 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		6C4A0CA22700A74300B8A792 /* HypeEventWatchListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypeEventWatchListView.swift; sourceTree = "<group>"; };
+		6C4A0CA62700ABDE00B8A792 /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4A0CAA2700ABE300B8A792 /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4A0CAD2700ABF700B8A792 /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4A0CAE2700ABF700B8A792 /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4A0CB42700B0CB00B8A792 /* HypeListWatch-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HypeListWatch-Bridging-Header.h"; sourceTree = "<group>"; };
+		6C4A0CB52700B0CC00B8A792 /* PhoneToWatchDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhoneToWatchDataController.swift; sourceTree = "<group>"; };
+		6C4A0CC12700BF3700B8A792 /* WatchToPhoneDataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchToPhoneDataController.swift; sourceTree = "<group>"; };
+		6C4A0CE42703490000B8A792 /* libSwiftDate-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libSwiftDate-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4A0CE52703490000B8A792 /* libUIColor_Hex_Swift-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libUIColor_Hex_Swift-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4A0CE82703491900B8A792 /* libSwiftDate-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libSwiftDate-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4A0CE92703491900B8A792 /* libUIColor_Hex_Swift-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libUIColor_Hex_Swift-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4A0CEC2703492700B8A792 /* libSwiftDate-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libSwiftDate-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4A0CED2703492700B8A792 /* libUIColor_Hex_Swift-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libUIColor_Hex_Swift-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4A0CF02703498400B8A792 /* SwiftDate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftDate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4A0CF12703498400B8A792 /* libSwiftDate-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libSwiftDate-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4A0CF22703498400B8A792 /* UIColor_Hex_Swift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = UIColor_Hex_Swift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C4A0CF32703498400B8A792 /* libUIColor_Hex_Swift-library.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; path = "libUIColor_Hex_Swift-library.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C763E6026FB0DF200DE9322 /* HypeListApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypeListApp.swift; sourceTree = "<group>"; };
+		6C763E6126FB0DF200DE9322 /* HypedListTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedListTabView.swift; sourceTree = "<group>"; };
+		6C763E6226FB0DF300DE9322 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6C763E6726FB0DF300DE9322 /* HypeList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HypeList.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C763E6A26FB0DF300DE9322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C763E7126FB0DF300DE9322 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6C763E7226FB0DF300DE9322 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		6C763E8126FB0E5B00DE9322 /* UpcomingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UpcomingView.swift; sourceTree = "<group>"; };
+		6C763E8426FB0FE700DE9322 /* CreateHypedEventView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateHypedEventView.swift; sourceTree = "<group>"; };
+		6C763E8726FB105300DE9322 /* HypedEvent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedEvent.swift; sourceTree = "<group>"; };
+		6C763E8A26FB443B00DE9322 /* FormLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormLabelView.swift; sourceTree = "<group>"; };
+		6C763E8D26FB466700DE9322 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		6C763E9326FB693300DE9322 /* HypedEventTileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HypedEventTileView.swift; sourceTree = "<group>"; };
+		6C920D6526FDFC5E00181D11 /* DataController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataController.swift; sourceTree = "<group>"; };
+		75F4EF441EC931FE9FFADB1A /* Pods-HypedListWidgetExtension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HypedListWidgetExtension.debug.xcconfig"; path = "Target Support Files/Pods-HypedListWidgetExtension/Pods-HypedListWidgetExtension.debug.xcconfig"; sourceTree = "<group>"; };
+		7998C5AA3220D4DDC5B3D916 /* Pods_HypeList__macOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HypeList__macOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		859CAE747DF0A708B009B345 /* Pods-HypeListMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HypeListMac.debug.xcconfig"; path = "Target Support Files/Pods-HypeListMac/Pods-HypeListMac.debug.xcconfig"; sourceTree = "<group>"; };
+		89A09C7809F9878D0A49C772 /* Pods-HypeListWatch.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HypeListWatch.release.xcconfig"; path = "Target Support Files/Pods-HypeListWatch/Pods-HypeListWatch.release.xcconfig"; sourceTree = "<group>"; };
+		89D7AF49318549F2D9B76CA5 /* Pods-HypeListWatch.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HypeListWatch.debug.xcconfig"; path = "Target Support Files/Pods-HypeListWatch/Pods-HypeListWatch.debug.xcconfig"; sourceTree = "<group>"; };
+		8E728C23C49985142E36555A /* Pods-HypedListMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HypedListMac.release.xcconfig"; path = "Target Support Files/Pods-HypedListMac/Pods-HypedListMac.release.xcconfig"; sourceTree = "<group>"; };
+		A95416C6EBB9EACB7E557AE1 /* Pods_HypeList__iOS_.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HypeList__iOS_.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C16F74830A5BC3DF8ED3534E /* libPods-HypeListWatch.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-HypeListWatch.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C27EEF30304A0BA750173034 /* Pods-HypedListWidgetExtension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HypedListWidgetExtension.release.xcconfig"; path = "Target Support Files/Pods-HypedListWidgetExtension/Pods-HypedListWidgetExtension.release.xcconfig"; sourceTree = "<group>"; };
+		DCF12E8D9AAE5D5AE8B0EE22 /* Pods-HypeListMac.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HypeListMac.release.xcconfig"; path = "Target Support Files/Pods-HypeListMac/Pods-HypeListMac.release.xcconfig"; sourceTree = "<group>"; };
+		F08DA8BF1B378B451C9C28DB /* Pods-HypedListMac.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HypedListMac.debug.xcconfig"; path = "Target Support Files/Pods-HypedListMac/Pods-HypedListMac.debug.xcconfig"; sourceTree = "<group>"; };
+		FD510A0A7265B66702D79596 /* Pods-HypeList (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HypeList (iOS).debug.xcconfig"; path = "Target Support Files/Pods-HypeList (iOS)/Pods-HypeList (iOS).debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6C4A0C5826FF928F00B8A792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4A0C5F26FF928F00B8A792 /* SwiftUI.framework in Frameworks */,
+				6C4A0C5D26FF928F00B8A792 /* WidgetKit.framework in Frameworks */,
+				F5AAC593041C4AEFE4CD2AEC /* Pods_HypedListWidgetExtension.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4A0C7E2700A6C400B8A792 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D79F5C1081488A5919DBBB51 /* libPods-HypeListWatch Extension.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C763E6426FB0DF300DE9322 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ED3ADD843836706245ED3D24 /* Pods_HypeList__iOS_.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2E7585FD1D88B5E95996375 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63564686C135D304304F5925 /* libPods-HypeListWatch.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6C4A0C4E26FF46A300B8A792 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				6C763E9326FB693300DE9322 /* HypedEventTileView.swift */,
+				6C763E8126FB0E5B00DE9322 /* UpcomingView.swift */,
+				6C4A0C4F26FF4F2A00B8A792 /* HypedEventListView.swift */,
+				6C763E8426FB0FE700DE9322 /* CreateHypedEventView.swift */,
+				6C763E8A26FB443B00DE9322 /* FormLabelView.swift */,
+				6C4A0C5126FF505B00B8A792 /* PastView.swift */,
+				6C4A0C5326FF5B1B00B8A792 /* DiscoverView.swift */,
+				6C4A0C5526FF5CDE00B8A792 /* HypedEventDetailView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		6C4A0C6026FF928F00B8A792 /* HypedListWidget */ = {
+			isa = PBXGroup;
+			children = (
+				6C4A0C6126FF928F00B8A792 /* HypedListWidget.swift */,
+				6C4A0C6326FF929600B8A792 /* Assets.xcassets */,
+				6C4A0C6526FF929600B8A792 /* Info.plist */,
+			);
+			path = HypedListWidget;
+			sourceTree = "<group>";
+		};
+		6C4A0C792700A6C300B8A792 /* HypeListWatch */ = {
+			isa = PBXGroup;
+			children = (
+				6C4A0C7A2700A6C400B8A792 /* Assets.xcassets */,
+				6C4A0C7C2700A6C400B8A792 /* Info.plist */,
+			);
+			path = HypeListWatch;
+			sourceTree = "<group>";
+		};
+		6C4A0C852700A6C400B8A792 /* HypeListWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				6C4A0C862700A6C400B8A792 /* HypeListApp.swift */,
+				6C4A0C882700A6C400B8A792 /* ContentView.swift */,
+				6C4A0C8A2700A6C400B8A792 /* NotificationController.swift */,
+				6C4A0C8C2700A6C400B8A792 /* NotificationView.swift */,
+				6C4A0C8E2700A6C400B8A792 /* ComplicationController.swift */,
+				6C4A0CC12700BF3700B8A792 /* WatchToPhoneDataController.swift */,
+				6C4A0CA22700A74300B8A792 /* HypeEventWatchListView.swift */,
+				6C4A0C902700A6C500B8A792 /* Assets.xcassets */,
+				6C4A0C952700A6C500B8A792 /* Info.plist */,
+				6C4A0C962700A6C500B8A792 /* PushNotificationPayload.apns */,
+				6C4A0C922700A6C500B8A792 /* Preview Content */,
+			);
+			path = "HypeListWatch Extension";
+			sourceTree = "<group>";
+		};
+		6C4A0C922700A6C500B8A792 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6C4A0C932700A6C500B8A792 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C763E5A26FB0DF200DE9322 = {
+			isa = PBXGroup;
+			children = (
+				6C4A0C7126FF9F8600B8A792 /* HypedListWidgetExtension.entitlements */,
+				6C4A0C7026FF9F4C00B8A792 /* HypeList.entitlements */,
+				6C763E5F26FB0DF200DE9322 /* Shared */,
+				6C763E6926FB0DF300DE9322 /* iOS */,
+				6C763E7026FB0DF300DE9322 /* macOS */,
+				6C4A0C6026FF928F00B8A792 /* HypedListWidget */,
+				6C4A0C792700A6C300B8A792 /* HypeListWatch */,
+				6C4A0C852700A6C400B8A792 /* HypeListWatch Extension */,
+				6C763E6826FB0DF300DE9322 /* Products */,
+				B688AADC5EDFB239360BA65E /* Pods */,
+				6EACB36DAAE80B14766AB91A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6C763E5F26FB0DF200DE9322 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				6C4A0C4E26FF46A300B8A792 /* View */,
+				6C920D6826FF409D00181D11 /* Data */,
+				6C763E6026FB0DF200DE9322 /* HypeListApp.swift */,
+				6C763E6126FB0DF200DE9322 /* HypedListTabView.swift */,
+				6C4A0C72270093D600B8A792 /* MainView.swift */,
+				6C4A0C742700949F00B8A792 /* HypedListSidebarView.swift */,
+				6C763E8D26FB466700DE9322 /* ImagePicker.swift */,
+				6C763E6226FB0DF300DE9322 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		6C763E6826FB0DF300DE9322 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6C763E6726FB0DF300DE9322 /* HypeList.app */,
+				6C4A0C5B26FF928F00B8A792 /* HypedListWidgetExtension.appex */,
+				6C4A0C782700A6C300B8A792 /* HypeListWatch.app */,
+				6C4A0C812700A6C400B8A792 /* HypeListWatch Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6C763E6926FB0DF300DE9322 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6C763E6A26FB0DF300DE9322 /* Info.plist */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		6C763E7026FB0DF300DE9322 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				6C763E7126FB0DF300DE9322 /* Info.plist */,
+				6C763E7226FB0DF300DE9322 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		6C920D6826FF409D00181D11 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				6C763E8726FB105300DE9322 /* HypedEvent.swift */,
+				6C920D6526FDFC5E00181D11 /* DataController.swift */,
+				6C4A0CB52700B0CC00B8A792 /* PhoneToWatchDataController.swift */,
+				6C4A0CB42700B0CB00B8A792 /* HypeListWatch-Bridging-Header.h */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		6EACB36DAAE80B14766AB91A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6C4A0CF02703498400B8A792 /* SwiftDate.framework */,
+				6C4A0CF12703498400B8A792 /* libSwiftDate-library.a */,
+				6C4A0CF22703498400B8A792 /* UIColor_Hex_Swift.framework */,
+				6C4A0CF32703498400B8A792 /* libUIColor_Hex_Swift-library.a */,
+				6C4A0CEC2703492700B8A792 /* libSwiftDate-library.a */,
+				6C4A0CED2703492700B8A792 /* libUIColor_Hex_Swift-library.a */,
+				6C4A0CE82703491900B8A792 /* libSwiftDate-library.a */,
+				6C4A0CE92703491900B8A792 /* libUIColor_Hex_Swift-library.a */,
+				6C4A0CE42703490000B8A792 /* libSwiftDate-library.a */,
+				6C4A0CE52703490000B8A792 /* libUIColor_Hex_Swift-library.a */,
+				6C4A0CAD2700ABF700B8A792 /* SwiftDate.framework */,
+				6C4A0CAE2700ABF700B8A792 /* UIColor_Hex_Swift.framework */,
+				6C4A0CAA2700ABE300B8A792 /* UIColor_Hex_Swift.framework */,
+				6C4A0CA62700ABDE00B8A792 /* SwiftDate.framework */,
+				A95416C6EBB9EACB7E557AE1 /* Pods_HypeList__iOS_.framework */,
+				7998C5AA3220D4DDC5B3D916 /* Pods_HypeList__macOS_.framework */,
+				6C4A0C5C26FF928F00B8A792 /* WidgetKit.framework */,
+				6C4A0C5E26FF928F00B8A792 /* SwiftUI.framework */,
+				472D743C0D5CDFC43DCABFCD /* Pods_HypedListWidgetExtension.framework */,
+				C16F74830A5BC3DF8ED3534E /* libPods-HypeListWatch.a */,
+				61E8268EBCF225DA6BF39FB3 /* libPods-HypeListWatch Extension.a */,
+				45C684CB6A98C54D9554FB4F /* libPods-HypedListMac.a */,
+				2C4D8BE3D9741C904296ECBD /* libPods-HypeListMac.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B688AADC5EDFB239360BA65E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD510A0A7265B66702D79596 /* Pods-HypeList (iOS).debug.xcconfig */,
+				45E756BCD6AD87CD0BAF9D97 /* Pods-HypeList (iOS).release.xcconfig */,
+				24496823B2171103595F3023 /* Pods-HypeList (macOS).debug.xcconfig */,
+				2D647A43625F6841A05B0133 /* Pods-HypeList (macOS).release.xcconfig */,
+				75F4EF441EC931FE9FFADB1A /* Pods-HypedListWidgetExtension.debug.xcconfig */,
+				C27EEF30304A0BA750173034 /* Pods-HypedListWidgetExtension.release.xcconfig */,
+				5101139A17EED79883A8C252 /* Pods-HypeListWatch Extension.debug.xcconfig */,
+				326B70F9F410B93B572CDD2A /* Pods-HypeListWatch Extension.release.xcconfig */,
+				89D7AF49318549F2D9B76CA5 /* Pods-HypeListWatch.debug.xcconfig */,
+				89A09C7809F9878D0A49C772 /* Pods-HypeListWatch.release.xcconfig */,
+				F08DA8BF1B378B451C9C28DB /* Pods-HypedListMac.debug.xcconfig */,
+				8E728C23C49985142E36555A /* Pods-HypedListMac.release.xcconfig */,
+				859CAE747DF0A708B009B345 /* Pods-HypeListMac.debug.xcconfig */,
+				DCF12E8D9AAE5D5AE8B0EE22 /* Pods-HypeListMac.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6C4A0C5A26FF928F00B8A792 /* HypedListWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4A0C6926FF929600B8A792 /* Build configuration list for PBXNativeTarget "HypedListWidgetExtension" */;
+			buildPhases = (
+				96DB0E8C693F4DF473EC3C1C /* [CP] Check Pods Manifest.lock */,
+				6C4A0C5726FF928F00B8A792 /* Sources */,
+				6C4A0C5826FF928F00B8A792 /* Frameworks */,
+				6C4A0C5926FF928F00B8A792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HypedListWidgetExtension;
+			productName = HypedListWidgetExtension;
+			productReference = 6C4A0C5B26FF928F00B8A792 /* HypedListWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		6C4A0C772700A6C300B8A792 /* HypeListWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4A0C9E2700A6C500B8A792 /* Build configuration list for PBXNativeTarget "HypeListWatch" */;
+			buildPhases = (
+				77F0A6CE3A29FB0791B7549C /* [CP] Check Pods Manifest.lock */,
+				6C4A0C762700A6C300B8A792 /* Resources */,
+				6C4A0C9D2700A6C500B8A792 /* Embed App Extensions */,
+				A2E7585FD1D88B5E95996375 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C4A0C842700A6C400B8A792 /* PBXTargetDependency */,
+			);
+			name = HypeListWatch;
+			productName = HypeListWatch;
+			productReference = 6C4A0C782700A6C300B8A792 /* HypeListWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		6C4A0C802700A6C400B8A792 /* HypeListWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C4A0C9A2700A6C500B8A792 /* Build configuration list for PBXNativeTarget "HypeListWatch Extension" */;
+			buildPhases = (
+				647E0D5EB6AFFCE9410129D8 /* [CP] Check Pods Manifest.lock */,
+				6C4A0C7D2700A6C400B8A792 /* Sources */,
+				6C4A0C7E2700A6C400B8A792 /* Frameworks */,
+				6C4A0C7F2700A6C400B8A792 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HypeListWatch Extension";
+			productName = "HypeListWatch Extension";
+			productReference = 6C4A0C812700A6C400B8A792 /* HypeListWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
+		6C763E6626FB0DF300DE9322 /* HypeList (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6C763E7B26FB0DF300DE9322 /* Build configuration list for PBXNativeTarget "HypeList (iOS)" */;
+			buildPhases = (
+				42F30A039D25FFB45FBE2B03 /* [CP] Check Pods Manifest.lock */,
+				6C763E6326FB0DF300DE9322 /* Sources */,
+				6C763E6426FB0DF300DE9322 /* Frameworks */,
+				6C763E6526FB0DF300DE9322 /* Resources */,
+				6C763E9E26FB6D5000DE9322 /* Embed Frameworks */,
+				120AB4F1AAC6A2CD48E909BF /* [CP] Embed Pods Frameworks */,
+				6C4A0C6C26FF929600B8A792 /* Embed App Extensions */,
+				6C4A0CA12700A6C500B8A792 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6C4A0C6726FF929600B8A792 /* PBXTargetDependency */,
+				6C4A0C982700A6C500B8A792 /* PBXTargetDependency */,
+			);
+			name = "HypeList (iOS)";
+			productName = "HypeList (iOS)";
+			productReference = 6C763E6726FB0DF300DE9322 /* HypeList.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6C763E5B26FB0DF200DE9322 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					6C4A0C5A26FF928F00B8A792 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					6C4A0C772700A6C300B8A792 = {
+						CreatedOnToolsVersion = 12.5.1;
+						LastSwiftMigration = 1250;
+					};
+					6C4A0C802700A6C400B8A792 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					6C763E6626FB0DF300DE9322 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = 6C763E5E26FB0DF200DE9322 /* Build configuration list for PBXProject "HypeList" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6C763E5A26FB0DF200DE9322;
+			productRefGroup = 6C763E6826FB0DF300DE9322 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6C763E6626FB0DF300DE9322 /* HypeList (iOS) */,
+				6C4A0C5A26FF928F00B8A792 /* HypedListWidgetExtension */,
+				6C4A0C802700A6C400B8A792 /* HypeListWatch Extension */,
+				6C4A0C772700A6C300B8A792 /* HypeListWatch */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6C4A0C5926FF928F00B8A792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4A0C6F26FF960900B8A792 /* Assets.xcassets in Resources */,
+				6C4A0C6426FF929600B8A792 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4A0C762700A6C300B8A792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4A0C7B2700A6C400B8A792 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4A0C7F2700A6C400B8A792 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4A0C942700A6C500B8A792 /* Preview Assets.xcassets in Resources */,
+				6C4A0C912700A6C500B8A792 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C763E6526FB0DF300DE9322 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C763E7726FB0DF300DE9322 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		120AB4F1AAC6A2CD48E909BF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HypeList (iOS)/Pods-HypeList (iOS)-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HypeList (iOS)/Pods-HypeList (iOS)-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HypeList (iOS)/Pods-HypeList (iOS)-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		42F30A039D25FFB45FBE2B03 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HypeList (iOS)-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		647E0D5EB6AFFCE9410129D8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HypeListWatch Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		77F0A6CE3A29FB0791B7549C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HypeListWatch-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96DB0E8C693F4DF473EC3C1C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HypedListWidgetExtension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C4A0C5726FF928F00B8A792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4A0C6226FF928F00B8A792 /* HypedListWidget.swift in Sources */,
+				6C4A0CBA2700BD0400B8A792 /* DataController.swift in Sources */,
+				6C4A0CBF2700BDB100B8A792 /* PhoneToWatchDataController.swift in Sources */,
+				6C4A0C6D26FF942400B8A792 /* HypedEvent.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C4A0C7D2700A6C400B8A792 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C4A0C8B2700A6C400B8A792 /* NotificationController.swift in Sources */,
+				6C4A0C892700A6C400B8A792 /* ContentView.swift in Sources */,
+				6C4A0CC02700BE3D00B8A792 /* PhoneToWatchDataController.swift in Sources */,
+				6C4A0C8F2700A6C400B8A792 /* ComplicationController.swift in Sources */,
+				6C4A0CC22700BF3700B8A792 /* WatchToPhoneDataController.swift in Sources */,
+				6C4A0CBC2700BD1E00B8A792 /* DataController.swift in Sources */,
+				6C4A0C872700A6C400B8A792 /* HypeListApp.swift in Sources */,
+				6C4A0CA42700A75800B8A792 /* HypedEvent.swift in Sources */,
+				6C4A0C8D2700A6C400B8A792 /* NotificationView.swift in Sources */,
+				6C4A0CA32700A74300B8A792 /* HypeEventWatchListView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6C763E6326FB0DF300DE9322 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C763E9426FB693300DE9322 /* HypedEventTileView.swift in Sources */,
+				6C4A0C73270093D600B8A792 /* MainView.swift in Sources */,
+				6C763E8526FB0FE700DE9322 /* CreateHypedEventView.swift in Sources */,
+				6C4A0C5226FF505B00B8A792 /* PastView.swift in Sources */,
+				6C4A0C752700949F00B8A792 /* HypedListSidebarView.swift in Sources */,
+				6C763E8B26FB443B00DE9322 /* FormLabelView.swift in Sources */,
+				6C763E8826FB105300DE9322 /* HypedEvent.swift in Sources */,
+				6C4A0C5626FF5CDE00B8A792 /* HypedEventDetailView.swift in Sources */,
+				6C920D6626FDFC5E00181D11 /* DataController.swift in Sources */,
+				6C763E8E26FB466700DE9322 /* ImagePicker.swift in Sources */,
+				6C4A0CB62700B0CC00B8A792 /* PhoneToWatchDataController.swift in Sources */,
+				6C763E7526FB0DF300DE9322 /* HypedListTabView.swift in Sources */,
+				6C763E7326FB0DF300DE9322 /* HypeListApp.swift in Sources */,
+				6C4A0C5026FF4F2A00B8A792 /* HypedEventListView.swift in Sources */,
+				6C763E8226FB0E5B00DE9322 /* UpcomingView.swift in Sources */,
+				6C4A0C5426FF5B1B00B8A792 /* DiscoverView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6C4A0C6726FF929600B8A792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C4A0C5A26FF928F00B8A792 /* HypedListWidgetExtension */;
+			targetProxy = 6C4A0C6626FF929600B8A792 /* PBXContainerItemProxy */;
+		};
+		6C4A0C842700A6C400B8A792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C4A0C802700A6C400B8A792 /* HypeListWatch Extension */;
+			targetProxy = 6C4A0C832700A6C400B8A792 /* PBXContainerItemProxy */;
+		};
+		6C4A0C982700A6C500B8A792 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6C4A0C772700A6C300B8A792 /* HypeListWatch */;
+			targetProxy = 6C4A0C972700A6C500B8A792 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6C4A0C6A26FF929600B8A792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75F4EF441EC931FE9FFADB1A /* Pods-HypedListWidgetExtension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = HypedListWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				INFOPLIST_FILE = HypedListWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paigeshin.HypeList.HypedListWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C4A0C6B26FF929600B8A792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C27EEF30304A0BA750173034 /* Pods-HypedListWidgetExtension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = HypedListWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				INFOPLIST_FILE = HypedListWidget/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paigeshin.HypeList.HypedListWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6C4A0C9B2700A6C500B8A792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5101139A17EED79883A8C252 /* Pods-HypeListWatch Extension.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HypeListWatch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HypeListWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paigeshin.HypeList.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		6C4A0C9C2700A6C500B8A792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 326B70F9F410B93B572CDD2A /* Pods-HypeListWatch Extension.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"HypeListWatch Extension/Preview Content\"";
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "HypeListWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paigeshin.HypeList.watchkitapp.watchkitextension;
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		6C4A0C9F2700A6C500B8A792 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89D7AF49318549F2D9B76CA5 /* Pods-HypeListWatch.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				IBSC_MODULE = HypeListWatch_Extension;
+				INFOPLIST_FILE = HypeListWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paigeshin.HypeList.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/Model/HypeListWatch-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Debug;
+		};
+		6C4A0CA02700A6C500B8A792 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89A09C7809F9878D0A49C772 /* Pods-HypeListWatch.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				IBSC_MODULE = HypeListWatch_Extension;
+				INFOPLIST_FILE = HypeListWatch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paigeshin.HypeList.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "Shared/Model/HypeListWatch-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 7.4;
+			};
+			name = Release;
+		};
+		6C763E7926FB0DF300DE9322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6C763E7A26FB0DF300DE9322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		6C763E7C26FB0DF300DE9322 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD510A0A7265B66702D79596 /* Pods-HypeList (iOS).debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HypeList.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paigeshin.HypeList;
+				PRODUCT_NAME = HypeList;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6C763E7D26FB0DF300DE9322 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45E756BCD6AD87CD0BAF9D97 /* Pods-HypeList (iOS).release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = HypeList.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35W7TZ9DUM;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = iOS/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.paigeshin.HypeList;
+				PRODUCT_NAME = HypeList;
+				SDKROOT = iphoneos;
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6C4A0C6926FF929600B8A792 /* Build configuration list for PBXNativeTarget "HypedListWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4A0C6A26FF929600B8A792 /* Debug */,
+				6C4A0C6B26FF929600B8A792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C4A0C9A2700A6C500B8A792 /* Build configuration list for PBXNativeTarget "HypeListWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4A0C9B2700A6C500B8A792 /* Debug */,
+				6C4A0C9C2700A6C500B8A792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C4A0C9E2700A6C500B8A792 /* Build configuration list for PBXNativeTarget "HypeListWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C4A0C9F2700A6C500B8A792 /* Debug */,
+				6C4A0CA02700A6C500B8A792 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C763E5E26FB0DF200DE9322 /* Build configuration list for PBXProject "HypeList" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C763E7926FB0DF300DE9322 /* Debug */,
+				6C763E7A26FB0DF300DE9322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6C763E7B26FB0DF300DE9322 /* Build configuration list for PBXNativeTarget "HypeList (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6C763E7C26FB0DF300DE9322 /* Debug */,
+				6C763E7D26FB0DF300DE9322 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6C763E5B26FB0DF200DE9322 /* Project object */;
+}

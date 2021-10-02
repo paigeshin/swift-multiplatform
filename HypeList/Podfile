@@ -1,0 +1,29 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'HypeList (iOS)' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  pod 'UIColor_Hex_Swift', '~> 5.1.7'
+  pod 'SwiftDate', '~> 5.0'
+  
+  target 'HypedListWidgetExtension' do
+      inherit! :search_paths
+  end
+  
+
+end
+
+target 'HypeListWatch' do
+    platform :watchos, '7.4'
+    pod 'UIColor_Hex_Swift', '~> 5.1.7'
+    pod 'SwiftDate', '~> 5.0'
+end
+
+target 'HypeListWatch Extension' do
+    platform :watchos, '7.4'
+    pod 'UIColor_Hex_Swift', '~> 5.1.7'
+    pod 'SwiftDate', '~> 5.0'
+end
+

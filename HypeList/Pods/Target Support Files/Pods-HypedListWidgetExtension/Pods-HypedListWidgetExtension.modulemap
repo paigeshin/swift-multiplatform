@@ -1,0 +1,6 @@
+framework module Pods_HypedListWidgetExtension {
+  umbrella header "Pods-HypedListWidgetExtension-umbrella.h"
+
+  export *
+  module * { export * }
+}
